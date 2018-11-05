@@ -1,0 +1,116 @@
+/*global*/
+*{
+	margin: 0;
+	padding: 0;
+}
+.link{
+	color: black;
+	font-size: 20px;
+	text-decoration: none;
+	text-transform: capitalize;
+}
+.contanier{
+	width: 96%;
+	margin: auto;
+}
+
+/***********************************/
+
+.header{
+	background-color: white;
+	border-bottom: 1px solid #ddd;
+	padding: 10px;
+}
+.header .left{
+	display: inline-block;
+	width: 49%;
+}
+.header .left .link span{
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 30px;
+}
+.header .right{
+	display: inline-block;
+	width: 49%;
+	text-align: right;
+}
+.header .right ul li{
+	display: inline-block;
+	margin-left: 30px;
+}
+/*end header*/
+
+/*start intro*/
+.intro{
+	background:url(../img/architect.jpg);
+	height: 100vh;
+	background-size: cover;
+}
+.intro .inner{
+	text-align: center;
+	padding-top: 300px;
+}
+.intro .inner h1 .bg{
+	background:rgba( 0,0,0  , .7);
+	color: white;
+	padding:20px;
+	font-size: 30px;
+	text-transform:uppercase;
+}
+.intro .inner h1 .text{
+	color: white;
+	text-transform: capitalize;
+	font-weight: 400;
+	font-size: 30px;
+	letter-spacing: 2px;
+}
+/*end intro*/
+/*start projects*/
+.projects{
+	padding: 50px 0;
+}
+.projects .contact-tittle .tittle{
+	font-weight: 300;
+	font-size: 30px;
+	border-bottom: 1px solid #ddd;
+	padding-bottom: 20px;
+}
+.projects .imges{
+	padding-top: 40px;	
+}
+.projects .imges span{
+	background-color: rgba( 0,0,0 , .5);
+	color: #fff;
+	padding:0 10px 10px;
+}
+.projects .imges .bg-img{
+	display: inline-block;
+	width: 24%;
+	margin: 10px 5px 5px 0;
+	height: 200px;
+}
+.projects .imges .p1{
+	background-image: url(../img/p1.jpg);
+}
+.projects .imges .p2{
+	background-image: url(../img/p2.jpg);
+}
+.projects .imges .p3{
+	background-image: url(../img/p3.jpg);
+}
+.projects .imges .p4{
+	background-image: url(../img/p4.jpg);
+}
+.projects .imges .p5{
+	background-image: url(../img/p2.jpg);
+}
+.projects .imges .p6{
+	background-image: url(../img/p1.jpg);
+}
+.projects .imges .p7{
+	background-image: url(../img/p4.jpg);
+}
+.projects .imges .p8{
+	background-image: url(../img/p3.jpg);
+}
